@@ -3,6 +3,9 @@ body {
   background-color: #fff;
 
   font-size: 100%;
+  min-width: 550px;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .pictureWords h1 {
@@ -35,13 +38,14 @@ body {
 
   vertical-align: top;
 
-  font-size: 36px;
+  font-size: 34px;
+  font-weight: bold;
 }
 
 .headerLogo {
   height: 45px;
-  padding-right: .5em;
-  padding-left: .5em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 
 .menuIcon {
@@ -61,13 +65,13 @@ body {
   margin: 0;
   padding: 0;
 
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .nav li {
   display: inline;
 
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .nav li a {
@@ -103,7 +107,7 @@ body {
 }
 
 .hamburgerDropdown:hover .dropdownContent {
-    display: block;
+  display: block;
 }
 
 .dropdownContent a {
@@ -138,7 +142,7 @@ body {
   text-align: center;
 
   color: #fff;
-  text-shadow: .05em .1em .25em #151515;
+  text-shadow: 0.05em 0.1em 0.25em #151515;
 }
 
 .topContainer {
@@ -148,7 +152,6 @@ body {
 .topPicture {
   width: 100%;
 }
-
 
 .topBanner {
   width: 100%;
@@ -164,7 +167,7 @@ body {
 
   width: 75%;
   height: 140px;
-  margin:auto;
+  margin: auto;
 
   vertical-align: middle;
 
@@ -173,7 +176,6 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
-
 
 .frontAndCenter p {
   position: absolute;
@@ -194,9 +196,8 @@ body {
 
 .about,
 #contact {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
-
 
 .card {
   padding-right: 0;
@@ -207,7 +208,7 @@ body {
   float: left;
 
   height: 2em;
-  padding-right: .5em;
+  padding-right: 0.5em;
 }
 
 .videoTitle {
@@ -245,7 +246,7 @@ body {
 dd,
 p,
 .container-fluid li {
-  padding-right: .9em;
+  padding-right: 0.9em;
 }
 
 dd {
@@ -262,8 +263,8 @@ hr {
 }
 
 .name2 {
-  padding-top: .2em;
-  padding-left: .2em;
+  padding-top: 0.2em;
+  padding-left: 0.2em;
 }
 
 .howTo {
@@ -293,7 +294,7 @@ form {
 }
 
 #submit {
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
   float: right;
 
   background-color: #dbdbdb;
@@ -345,43 +346,91 @@ footer {
 }
 
 .mission {
-  padding-top: .8em;
+  padding-top: 0.8em;
   padding-left: 1em;
 }
 
 @media (max-width: 575px) {
-  .pictureWords h1 {font-size: 24px;}
-  .pictureWords p {font-size: 12px;}
-  .frontAndCenter p {font-size: 10px;}
-  .about {display: block;}
-  .about h2{font-size: 24px;}
-  .about dd, .about li {font-size: 16px;}
-  .howTo h1 {font-size: 32px;}
-  .howTo p {font-size: 16px;}
-  .videoTitle h2{font-size: 28px;}
-  .footerWrap p {font-size: 9px;}
+  .pictureWords h1 {
+    font-size: 24px;
+  }
+  .pictureWords p {
+    font-size: 12px;
+  }
+  .frontAndCenter p {
+    font-size: 10px;
+  }
+  .about {
+    display: block;
+  }
+  .about h2 {
+    font-size: 24px;
+  }
+  .about dd,
+  .about li {
+    font-size: 16px;
+  }
+  .howTo h1 {
+    font-size: 32px;
+  }
+  .howTo p {
+    font-size: 16px;
+  }
+  .videoTitle h2 {
+    font-size: 28px;
+  }
+  .footerWrap p {
+    font-size: 9px;
+  }
+  .websiteTitle {
+    font-size: 0.01em;
+  }
 }
 
 @media (max-width: 767.98px) {
-  .websiteTitle {font-size: 24px;}
-  .headerLogo {height: 35px;}
-  .menuIcon {height: 35px;}
-  .headerWrap {height: 35px;}
-  .frontAndCenter p {font-size: 16px;}
-  .about h2{font-size: 26px;}
+  .websiteTitle {
+    font-size: 24px;
+  }
+  .headerLogo {
+    height: 35px;
+  }
+  .menuIcon {
+    height: 35px;
+  }
+  .headerWrap {
+    height: 35px;
+  }
+  .frontAndCenter p {
+    font-size: 16px;
+  }
+  .about h2 {
+    font-size: 26px;
+  }
 }
-
 
 @media (max-width: 863px) {
-  .resourceCardWrap .card {width: 30vw;}
-  .card-img-top {display: none;}
-  .resourceCardWrap .card-title {font-size: 14px;}
-  .card-text {font-size: 12px;}
+  .resourceCardWrap .card {
+    width: 30vw;
+  }
+  .card-img-top {
+    display: none;
+  }
+  .resourceCardWrap .card-title {
+    font-size: 14px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
 }
 
-
 @media (max-width: 991.98px) {
-  nav ul {display: none;}
-  nav .hamburgerDropdown {display: inline-block;}
-  .frontAndCenter {font-size: 18px;}
+  nav ul {
+    display: none;
+  }
+  nav .hamburgerDropdown {
+    display: inline-block;
+  }
+  .frontAndCenter {
+    font-size: 18px;
+  }
 }
