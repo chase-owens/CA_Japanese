@@ -8,6 +8,11 @@ body {
   margin: auto;
 }
 
+.flag {
+  width: 14px;
+  height: 10px;
+}
+
 .pictureWords h1 {
   font-size: 40px;
 }
