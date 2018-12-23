@@ -1,0 +1,59 @@
+body {
+  background-color: #fff;
+  font-size: 100%;
+}
+
+.thankYouWrap {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.canyonPhoto {
+  width: 100%;
+}
+
+.thankYouWords {
+  position: absolute;
+  top: 33%;
+  left: 0;
+
+  width: 100%;
+
+  text-align: center;
+
+  color: #fff;
+  text-shadow: 0.05em 0.1em 0.25em #151515;
+}
+
+a {
+  color: #f00;
+}
+
+a:hover {
+  color: #f00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 525px) {
+  .thankYouWords {
+    top: 25%;
+  }
+  .thankYouWords h1 {
+    font-size: 16px;
+  }
+  .thankYouWords p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 725px) {
+  .thankYouWords h1 {
+    font-size: 24px;
+  }
+  .thankYouWords p {
+    font-size: 12px;
+  }
+}

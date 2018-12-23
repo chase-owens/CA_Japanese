@@ -1,0 +1,20 @@
+body {
+  background-color: lightGrey;
+}
+
+.languages {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.language {
+  font-size: 3em;
+  width: 150px;
+  height: 100px;
+  color: #151515;
+}
+
+a {
+  text-decoration: none;
+}
